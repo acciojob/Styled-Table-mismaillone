@@ -1,1 +1,39 @@
 /* your code */
+/* styles.css */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+thead {
+  background-color: #344CB7;
+  color: white;
+	
+}
+
+th, td {
+  padding: 12px ;
+  text-align: center;
+  border: px solid;
+	
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f6;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+caption {
+  margin: 10px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
